@@ -9,6 +9,10 @@
     "author": "kolodziejczak.mn@gmail.com",
     "license": "MIT",
     "readme": "README.md",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kolodziejczakM/xliff_to_json_converter"
+    },
     "dependencies": {
         "xmldom": "0.1.27"
     }
