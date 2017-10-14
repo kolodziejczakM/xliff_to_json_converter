@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<xliff version="1.0">
+    <file original="global" source-language="en_US" target="fi" datatype="plaintext">
+        <body>
+            <trans-unit id="1">
+                <source>header.home</source>
+                <target>Homepage</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>header.authors</source>
+                <target>Authors</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>header.more</source>
+                <target>More</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
