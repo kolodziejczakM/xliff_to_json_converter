@@ -1,11 +1,13 @@
 {
     "name": "xliff_to_json_converter",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Converts xliff translation file to json format",
     "main": "xliffToJson.js",
+    "bin": {
+        "xliff_convert": "bin/run.js"
+    },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "getjson": "xliffToJson.js"
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "kolodziejczak.mn@gmail.com",
     "license": "MIT",
