@@ -28,13 +28,13 @@
 ```[{"source":"header.home","target":"Homepage"},{"source":"header.authors","target":"Authors"},{"source":"header.more","target":"More"}]```
 
 **Node.js is required to install and run this script**
-## Installation && usage
+## Installation && CLI usage
 1. Run in your terminal ```npm i xliff_to_json_converter``` to install this script locally.
 2. Start conversion (from your project root folder) by:  
 ```node ./node_modules/xliff_to_json_converter/bin/run.js <yourExistingTranslationFile.xliff> <outputFileToCreate.json>```
 3. Have fun!
 
-## Global installation && usage
+## Global installation && CLI usage
 1. Install this script globally by typing: ```npm i -g xliff_to_json_converter```
 2. Run it from every folder like this:  
 ```xliff_convert <yourExistingTranslationFile.xliff> <outputFileToCreate.json>```
