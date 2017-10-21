@@ -28,9 +28,10 @@
 ```[{"source":"header.home","target":"Homepage"},{"source":"header.authors","target":"Authors"},{"source":"header.more","target":"More"}]```
 
 ## Usage
-1. **You need Node.js** installed to run this script
-2. Run in your terminal: **node xliffToJson.js <yourExistingTranslationFile.xliff> <outputFileToCreate.json>**
-3. Have fun!
+1. **Node.js is required to install and run this script**
+2. Run in your terminal ```npm i xliff_to_json_converter``` to install this script locally.
+3. Start conversion by: **npm run getjson <yourExistingTranslationFile.xliff> <outputFileToCreate.json>**
+4. Have fun!
 
 ## License
 ### **MIT**
