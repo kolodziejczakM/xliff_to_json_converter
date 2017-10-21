@@ -1,8 +1,8 @@
 {
     "name": "xliff_to_json_converter",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Converts xliff translation file to json format",
-    "main": "xliffToJson.js",
+    "main": "bin/run.js",
     "bin": {
         "xliff_convert": "bin/run.js"
     },
