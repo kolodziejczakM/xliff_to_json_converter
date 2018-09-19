@@ -1,8 +1,8 @@
 {
     "name": "xliff_to_json_converter",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "description": "Converts xliff translation file to json format",
-    "main": "index.js",
+    "main": "bin/run.js",
     "bin": {
         "xliff_convert": "bin/run.js"
     },
@@ -17,7 +17,6 @@
         "url": "https://github.com/kolodziejczakM/xliff_to_json_converter"
     },
     "dependencies": {
-        "banach-analysis": "^0.8.4",
         "xmldom": "0.1.27"
     }
 }
