@@ -35,14 +35,10 @@ const fs = require('fs'),
     Parser = require('xmldom').DOMParser,
     inputFile = process.argv[2],
     outputFile = process.argv[3];
-const square = require('../node_modules/banach-analysis/index');
-
 
 main();
 
 function main() {
-    console.log('test: ', square + 2);
-
     if(!inputFile || !outputFile) {
         process.stdout.write(
             `\x1b[31m ERROR: You must specify input and output file. \x1b[0m
