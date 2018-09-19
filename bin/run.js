@@ -78,9 +78,8 @@ function createOutputJSON(content) {
  * @returns {Object} Contains all relevant translation nodes
  */
 function getTranslationNodes(xmlContent) {
-    const xmlDoc = new Parser().parseFromString(xmlContent.toString()),
-        sourceNodes = xmlDoc.getElementsByTagName('source'),
-        targetNodes = xmlDoc.getElementsByTagName('target');
+    const xmlDoc = new Parser().parseFromString(xmlContent.toString());
+    const [ sourceNodes, targetNodes ] = [ xmlDoc.getElementsByTagName('source'), xmlDoc.getElementsByTagName('target') ];
 
     return { sourceNodes, targetNodes };
 }
